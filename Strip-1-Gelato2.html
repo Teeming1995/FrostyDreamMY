@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="/CSS/Strip-1-Gelato1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelato Project</title>
+</head>
+<body>
+        
+
+  
+
+  <div class="logo">
+    <div class="dropdown">
+         <img src="/Img/Burger Menu Icon.png"id="burgermenu" onclick="myFunction()" class="dropbtn">
+         <div id="myDropdown" class="dropdown-content">
+           <a href="/index.html">Home</a>
+           <a href="/shop.html">Shop</a>
+           <a href="/Promotions.html">Promotion</a>
+           <a href="/Locations.html">Location</a>
+         </div>
+       </div>
+     
+     <div class="SideBar">
+         <!--<a href="/Menuburger/Menuburger.html"><img src="/Img/Burger Menu Icon.png" id="burgermenu"></a>-->
+       </div>
+     
+       <a href="/index.html"><img src="/IMG/Frosty Dream Logo.png" id="logopicture"></a>
+  </div>
+        
+
+    <nav class="navBarBox">
+
+            <!---
+
+             <div class="SideBar">
+              <a href="/Menuburger/Menuburger.html"><img src="/Img/Burger Menu Icon.png" id="burgermenu"></a>
+              </div>
+
+        -->
+      
+      <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/shop.html">Shop </a></li>
+          <li><a href="/Promotions.html">Promotions</a></li>
+          <li><a href="/Locations.html">Locations</a></li>
+          
+      </ul>
+
+   </nav>
+
+   <!--Section Section-->
+
+
+   <div class="Main-Parent-box">
+
+         
+
+    <img src="/Img/Pandan Coconut Gula Melaka Gelato Pint (473ml).png">
+
+   
+
+
+   <div class="Description-box">
+
+     
+    <h1>Valrhona Chocolate Brownie Gelato Pint (473ml)
+
+    <br><br>
+
+     RM 39.00
+
+   
+
+     <p>Exquisite frozen dessert that combines the rich, 
+      intense flavours of Valrhona chocolate with the decadent 
+      chunks of brownies.</p>
+
+      <a href= "https://api.whatsapp.com/message/VXD3EI5RJ44QG1?autoload=1&app_absent=0"><button>BUY</button></a> 
+
+    </h1>
+
+  
+   </div>
+
+
+</div>
+
+
+   </div>
+
+
+   <!--Footer Section-->
+
+   <div class="footer">
+
+    <div class="list-of-info">
+      
+          <div class="InfoListBox">
+
+             
+               <p>Our Locations</p>
+               
+               <p>Contact Us</p>
+               
+               <p>About Us</p>
+               
+               <p><a href="/Reviews.html" id="Reviews">Reviews</a></p>
+               
+               <p>Games</p>
+
+              
+
+               <div class="Social-Media">
+
+               <p><a href ="https://www.facebook.com/people/Frosty-Dream/61550208824960/?mibextid=LQQJ4d" ><img id="Facebook-icon" src="/Img/facebook-icon-white color-png-774.png"> </a></p>
+
+               <p><a href ="https://instagram.com/frostydreamgelato" ><img id="Instagram-icon" src="/Img/Intsgram icon white color .png"></a></p>
+               
+               </div>
+
+           </div>
+
+    </div> 
+
+
+
+</div>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+</body>
+</html>

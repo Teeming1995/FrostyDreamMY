@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="/CSS/Locations.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelato Project</title>
+</head>
+<body>
+        
+
+  
+
+  <div class="logo">
+    <div class="dropdown">
+         <img src="/Img/Burger Menu Icon.png"id="burgermenu" onclick="myFunction()" class="dropbtn">
+         <div id="myDropdown" class="dropdown-content">
+           <a href="/index.html">Home</a>
+           <a href="/shop.html">Shop</a>
+           <a href="/Promotions.html">Promotion</a>
+           <a href="/Locations.html">Location</a>
+         </div>
+       </div>
+     
+     <div class="SideBar">
+         <!--<a href="/Menuburger/Menuburger.html"><img src="/Img/Burger Menu Icon.png" id="burgermenu"></a>-->
+       </div>
+     
+       <a href="/index.html"><img src="/IMG/Frosty Dream Logo.png" id="logopicture"></a>
+  </div>
+
+        
+
+    <nav class="navBarBox">
+
+            <!---
+
+             <div class="SideBar">
+              <a href="/Menuburger/Menuburger.html"><img src="/Img/Burger Menu Icon.png" id="burgermenu"></a>
+              </div>
+
+        -->
+      
+      <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/shop.html">Shop </a></li>
+          <li><a href="/Promotions.html">Promotions</a></li>
+          <li><a href="/Locations.html">Locations</a></li>
+          
+      </ul>
+
+   </nav>
+
+
+   <div class="Parent-SecondSection">
+
+      <div class="LocationBox">
+        <h1>Shah Alam</h1>
+        <br><br>
+        <p>Business Hours from <span>10am to 6pm.</span>
+          
+          <br><br>
+
+          5, Jalan Taboh 33/22, Seksyen 33,
+          <br>
+          40400 Shah Alam, Selangor</p>
+
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.
+          209565804802!2d101.68824424734818!3d3.146784499257529!2m3!1f0!2f0!3f0!3m2!1
+          i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49d3e30988d7%3A0x464a4b7fda23c09a!2sKuala%
+          20Lumpur%20City%20Centre%2C%20Kuala%20Lumpur%2C%20Federal%20Territory%20of%20
+          Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1700642950213!5m2!1sen!2smy" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+
+          </iframe>
+    
+
+      </div>
+
+
+      <!--Footer Section-->
+
+   <div class="footer">
+
+    <div class="list-of-info">
+      
+          <div class="InfoListBox">
+
+             
+               <p>Our Locations</p>
+               
+               <p>Contact Us</p>
+               
+               <p>About Us</p>
+               
+               <p><a href="/Reviews.html" id="Reviews">Reviews</a></p>
+               
+               <p>Games</p>
+
+              
+
+               <div class="Social-Media">
+
+               <p><a href ="https://www.facebook.com/people/Frosty-Dream/61550208824960/?mibextid=LQQJ4d" ><img id="Facebook-icon" src="/Img/facebook-icon-white color-png-774.png"> </a></p>
+
+               <p><a href ="https://instagram.com/frostydreamgelato" ><img id="Instagram-icon" src="/Img/Intsgram icon white color .png"></a></p>
+               
+               </div>
+
+           </div>
+
+    </div> 
+
+
+
+</div>
+
+     
+
+    
+   </div>
+
+   <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+
+</body>
+</html>
+
+
+<!--
+
+  <div class="location-info-container">
+        <h3>Shah Alam</h3>
+        <br><br>
+        <p>Business Hours from <span> 10am to 6pm. </span>
+            <br><br>
+           5, Jalan Taboh 33/22, Seksyen 33, <br>40400 Shah Alam, Selangor</p>
+
+           <div class="container">
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15935.
+                209565804802!2d101.68824424734818!3d3.146784499257529!2m3!1f0!2f0!3f0!3m2!1
+                i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49d3e30988d7%3A0x464a4b7fda23c09a!2sKuala%
+                20Lumpur%20City%20Centre%2C%20Kuala%20Lumpur%2C%20Federal%20Territory%20of%20
+                Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1700642950213!5m2!1sen!2smy" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+    
+                </iframe>
+            </div>
+    
+    
+        </div>   
+
+
+    </div>
+
+
+
+
+-->
