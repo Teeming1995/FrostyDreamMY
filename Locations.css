@@ -1,0 +1,962 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   background:none;
+   height: 6vh;}
+
+   body {
+    background: rgb(255, 251, 251);
+   }
+
+
+   .dropbtn {
+    background-color: #659dc3;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: none;
+  
+  }
+  
+  .dropdown img {
+    border: none;
+    width:50%;
+    
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    height:20vh;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    position: relative;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  
+   
+   
+.logo {
+ 
+ width:100%;
+ position:absolute;
+ background: rgb(190, 249, 207);
+ height: auto;
+ padding:3em;
+} 
+
+.logo img{
+  position: relative;
+  top:-32.5pt;
+  display: block;
+  margin:auto;
+  border:4px solid black;
+  max-width:130px;
+  height: auto;
+  
+}
+
+
+
+.navBarBox {
+ position: absolute;
+  display:flex;
+  flex-wrap: nowrap;
+  outline:2px solid rgb(0, 0, 0);
+  width:100%;
+  height: auto;
+  top:150pt;
+  
+
+
+}
+
+.navBarBox ul {
+ position: absolute;
+ top:0pt;
+  display:flex;
+  list-style: none;
+  width:100%;
+  text-align: center;
+  background: rgb(36, 36, 35);
+}
+
+
+
+.navBarBox li {
+
+  padding:1em;
+  outline:6px solid rgb(0, 0, 0);
+  width:50%;
+  height: auto;
+
+}
+
+.navBarBox li:hover {
+
+ background: rgb(59, 135, 173);
+
+
+}
+
+.navBarBox a {
+ position: relative;
+ top:-3pt;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  
+ 
+}
+
+/* Second Section */
+
+.Parent-SecondSection {
+
+   position:absolute;
+   width:100%;
+   height:100vh;
+   border:1px solid rgb(255, 255, 255);
+   top:199.5pt;
+   display: flex;
+   justify-content: center;
+   background: url(/IMG/Wallpaper\ for\ location-1.jpg);
+}
+
+
+
+.LocationBox {
+
+   width:100%;
+   height:70vh;
+   border:2px solid rgb(243, 255, 254);
+   position: absolute;
+   top:90pt;
+   display:flex;
+   justify-content: center;
+
+}
+
+.LocationBox p {
+
+  position:absolute;
+  top:50pt;
+  text-align: center;
+}
+
+.LocationBox iframe {
+
+ width:50%;
+ height:40vh;
+ position:absolute;
+ top:160pt;
+
+
+}
+
+/*Footer Section */
+
+.footer {
+  border:none;
+  background: rgb(0, 0, 0);
+  background: url(/Img/ice-cream-black\ background.jpg);
+  position: absolute;
+  top:590pt;
+  height:50vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+
+  
+ }
+
+
+ /*.list-of-info {
+
+  position:relative;
+  top:23pt;
+  left:-250pt;
+  border:2px solid rgb(239, 153, 153);
+  width:40%;
+  height:39vh;
+  display: flex;
+  justify-content: center;
+ 
+
+ }
+ */
+
+ .InfoListBox {
+  position:absolute;
+  left:60pt;
+  top:28pt;
+  background: rgb(0, 0, 0);
+  border:1px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  width:16%;
+  height:40vh;
+  display:block;
+  justify-content: left;
+
+   
+
+ }
+
+
+ .InfoListBox p {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  position:relative;
+  top:17pt;
+  padding-left:1.3em;
+  text-align: left;
+  color: white;
+  
+  
+ }
+
+ .Social-Media {
+
+  display:flex;
+  justify-content: left;
+  border: none;
+  width:100%;
+  position:relative;
+  top:-23.5pt;
+  
+
+ }
+
+
+ #Instagram-icon {
+
+   position:absolute;
+   left:0pt;
+   top:20pt;
+   width:125%;
+   height:4.2vh;
+ }
+
+ #Facebook-icon {
+
+   position:relative;
+   left:-5pt;
+   top:15pt;
+
+ }
+
+
+ @media only screen and (max-width: 1000px) {
+
+  .dropbtn {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #8fa1ad;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    position:absolute;
+    left:-15pt;
+    top:10pt;
+    
+    
+  
+  }
+  
+  .dropdown img {
+    border: none;
+    width:50%;
+    
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left:24pt;
+    height:20vh;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    position: relative;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  .logo {
+
+    width:100%;
+    position:absolute;
+    background: rgb(190, 249, 207);
+    height: 36vh;
+    padding:3em;
+    
+   } 
+
+   .logo img{
+    position: relative;
+    top:0pt;
+    display: block;
+    margin:auto;
+    border:4px solid black;
+    max-width:130px;
+    height: auto;
+    
+  }
+
+
+   .SideBar {
+    position: absolute;
+    left:-15pt;
+    top:5pt;
+    display: flex;
+  
+  }
+  
+  
+  #burgermenu {
+    width:50%;
+    border: none;
+    display:flex;
+  
+  }
+
+
+  .navBarBox {
+    position: absolute;
+     display:flex;
+     flex-wrap: nowrap;
+     outline:2px solid rgb(0, 0, 0);
+     width:100%;
+     height: auto;
+     top:150pt;
+     display: none;
+     
+   
+   
+   }
+
+
+/* Second Section */
+
+.Parent-SecondSection {
+
+  position:absolute;
+  width:100%;
+  height:100vh;
+  border:1px solid rgb(255, 255, 255);
+  top:188pt;
+  display: flex;
+  justify-content: center;
+  background: url(/IMG/Wallpaper\ for\ location-1.jpg);
+}
+
+.LocationBox {
+
+   width:100%;
+   height:70vh;
+   border:2px solid rgb(243, 255, 254);
+   position: absolute;
+   top:90pt;
+   display:flex;
+   justify-content: center;
+
+}
+
+.InfoListBox {
+  position:absolute;
+  left:60pt;
+  top:28pt;
+  background: rgb(0, 0, 0);
+  border:1px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  width:23%;
+  height:40vh;
+  display:block;
+  justify-content: left;
+
+   
+
+ }
+
+
+ .InfoListBox p {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  position:relative;
+  top:17pt;
+  padding-left:1.3em;
+  text-align: left;
+  
+  
+ }
+
+ .Social-Media {
+
+  display:flex;
+  justify-content: left;
+  border: none;
+  width:100%;
+  position:relative;
+  top:-23.5pt;
+  
+
+ }
+
+
+ }
+
+
+ @media only screen and (max-width: 700px) {
+
+  .dropbtn {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #8fa1ad;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    position:absolute;
+    left:-25pt;
+    top:8pt;
+    
+    
+  
+  }
+  
+  .dropdown img {
+    border: none;
+    width:50%;
+    
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left:33pt;
+    height:20vh;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    position: relative;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .logo {
+
+    width:100%;
+    position:absolute;
+    background: rgb(190, 249, 207);
+    height: 34vh;
+    padding:3em;
+   } 
+
+   #burgermenu {
+    width:43%;
+    border: none;
+    display:flex;
+  
+  }
+
+  .SideBar {
+    position: absolute;
+    left:-24pt;
+    top:4pt;
+    display: flex;
+  
+  }
+  
+
+  .InfoListBox {
+    position:absolute;
+    left:30pt;
+    top:28pt;
+    background: rgb(0, 0, 0);
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    width:38%;
+    height:40vh;
+    display:block;
+    justify-content: left;
+  
+     
+  
+   }
+  
+  
+   .InfoListBox p {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position:relative;
+    top:17pt;
+    padding-left:1.3em;
+    text-align: left;
+    
+    
+   }
+  
+   .Social-Media {
+  
+    display:flex;
+    justify-content: left;
+    border: none;
+    width:100%;
+    position:relative;
+    top:-23.5pt;
+    
+  
+   }
+
+
+  }
+
+
+  /* This is for mobile phone iphone 13 with 375px*/
+
+ @media only screen and (max-width: 440px) {
+
+  .logo {
+  
+    width:100%;
+    position:relative;
+    top:0pt;
+    background: rgb(164, 246, 186);
+    height: 17vh;
+    border-bottom:4px solid rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-right:10em;
+    
+   } 
+
+   #logopicture {
+    height:10.5vh;
+    position: relative;
+    top:-20pt;
+    left:40pt;
+    border: 3px solid rgb(82, 118, 91);
+   }
+
+   .logo img{
+  
+    display: block;
+    margin:auto;
+    border:4px solid rgb(93, 44, 44);
+    max-width:130px;
+    height: auto;
+    
+  }
+
+
+  
+
+
+   .SideBar {
+    position: absolute;
+    left:-26pt;
+    top:5pt;
+  
+  }
+  
+  
+  #burgermenu {
+    width:33%;
+    border: none;
+    display:flex;
+  
+  }
+
+  .LocationBox {
+
+    width:100%;
+    height:70vh;
+    border:2px solid rgb(255, 255, 255);
+    position: absolute;
+    top:-25pt;
+    display:flex;
+    justify-content: center;
+ 
+ }
+ 
+
+  
+
+
+  .LocationBox iframe {
+
+    width:88%;
+    height:35vh;
+    position:absolute;
+    top:180pt;
+   
+   
+   }
+
+   /*Footer Section */
+
+   .footer {
+    border:none;
+    background: rgb(0, 0, 0);
+    background: url(/Img/ice-cream-black\ background.jpg);
+    position: absolute;
+    top:450pt;
+    height:58vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+    
+   }
+
+
+   /*.list-of-info {
+
+    position:relative;
+    top:23pt;
+    left:-250pt;
+    border:2px solid rgb(239, 153, 153);
+    width:40%;
+    height:39vh;
+    display: flex;
+    justify-content: center;
+   
+
+   }
+   */
+
+   .InfoListBox {
+    position:absolute;
+    left:26pt;
+    top:58pt;
+    background: rgb(0, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    width:80%;
+    height:40vh;
+    display:block;
+    justify-content: left;
+  
+     
+  
+   }
+  
+  
+   .InfoListBox p {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position:relative;
+    top:17pt;
+    padding-left:1.3em;
+    text-align: left;
+    
+    
+   }
+  
+   .Social-Media {
+  
+    display:flex;
+    justify-content: left;
+    border: none;
+    width:100%;
+    position:relative;
+    top:-23.5pt;
+    
+  
+   }
+
+   .Social-Media {
+
+    display:flex;
+    justify-content: left;
+    border: none;
+    width:100%;
+    position:relative;
+    top:-20pt;
+    
+
+   }
+
+   #Instagram-icon {
+
+     position:absolute;
+     left:0pt;
+     top:20pt;
+   }
+
+   #Facebook-icon {
+
+     position:relative;
+     left:-5pt;
+     top:15pt;
+
+   }
+   
+ }
+
+
+ /* This is for mobile phone iphone 14 Max Pro */
+
+ @media only screen and (max-width: 440px) {
+
+  .logo {
+ 
+    width:100%;
+    position:relative;
+    top:0pt;
+    background: rgb(164, 246, 186);
+    height: 17vh;
+    border-bottom:4px solid rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding-right:10em;
+    
+   } 
+
+   #logopicture {
+    height:10.5vh;
+    position: relative;
+    top:-20pt;
+    left:40pt;
+    border: 3px solid rgb(82, 118, 91);
+   }
+
+   .logo img{
+  
+    display: block;
+    margin:auto;
+    border:4px solid rgb(93, 44, 44);
+    max-width:130px;
+    height: auto;
+    
+  }
+
+
+  
+
+
+   .SideBar {
+    position: absolute;
+    left:-26pt;
+    top:5pt;
+  
+  }
+  
+  
+  #burgermenu {
+    width:33%;
+    border: none;
+    display:flex;
+  
+  }
+
+  .LocationBox {
+
+    width:100%;
+    height:70vh;
+    border:2px solid rgb(255, 255, 255);
+    position: absolute;
+    top:-25pt;
+    display:flex;
+    justify-content: center;
+ 
+ }
+ 
+
+  
+
+
+  .LocationBox iframe {
+
+    width:88%;
+    height:35vh;
+    position:absolute;
+    top:180pt;
+   
+   
+   }
+
+   /*Footer Section */
+
+   .footer {
+    border:none;
+    background: rgb(0, 0, 0);
+    background: url(/Img/ice-cream-black\ background.jpg);
+    position: absolute;
+    top:500pt;
+    height:58vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+    
+   }
+
+
+   /*.list-of-info {
+
+    position:relative;
+    top:23pt;
+    left:-250pt;
+    border:2px solid rgb(239, 153, 153);
+    width:40%;
+    height:39vh;
+    display: flex;
+    justify-content: center;
+   
+
+   }
+   */
+
+   .InfoListBox {
+    position:absolute;
+    left:26pt;
+    top:58pt;
+    background: rgb(0, 0, 0);
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    width:80%;
+    height:40vh;
+    display:block;
+    justify-content: left;
+  
+     
+  
+   }
+  
+  
+   .InfoListBox p {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position:relative;
+    top:17pt;
+    padding-left:1.3em;
+    text-align: left;
+    
+    
+   }
+  
+   .Social-Media {
+  
+    display:flex;
+    justify-content: left;
+    border: none;
+    width:100%;
+    position:relative;
+    top:-23.5pt;
+    
+  
+   }
+
+   
+
+   #Instagram-icon {
+
+     position:absolute;
+     left:0pt;
+     top:21pt;
+     width: 160%
+   }
+
+   #Facebook-icon {
+
+     position:relative;
+     left:-5pt;
+     top:15pt;
+
+   }
+   
+ }
+

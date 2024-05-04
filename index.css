@@ -1,0 +1,2483 @@
+
+
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   background:none;
+   height: 6vh;}
+
+
+body{
+
+background: rgb(234, 255, 234);
+
+}
+
+.dropbtn {
+  background-color: #659dc3;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+
+}
+
+.dropdown img {
+  border: none;
+  width:50%;
+  
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  height:20vh;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  position: relative;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+.SideBar {
+  position: absolute;
+  left:3pt;
+  top:13pt;
+  
+
+}
+
+
+
+
+#burgermenu {
+  width:50%;
+  border: none;
+  display: block;
+
+}
+
+        
+    
+   
+   
+.logo {
+ 
+ width:100%;
+ position:absolute;
+ background: rgb(190, 249, 207);
+ height: auto;
+ padding:3em;
+} 
+
+.logo img{
+  
+  display: block;
+  margin:auto;
+  border:4px solid black;
+  max-width:130px;
+  height: auto;
+  
+}
+
+
+.navBarBox {
+ position: absolute;
+  display:flex;
+  flex-wrap: nowrap;
+  outline:none;
+  width:100%;
+  height: auto;
+  top:150pt;
+  
+
+
+}
+
+.navBarBox ul {
+ position: absolute;
+ top:0pt;
+  display:flex;
+  list-style: none;
+  width:100%;
+  text-align: center;
+  background: rgb(36, 36, 35);
+}
+
+
+
+.navBarBox li {
+
+  padding:1em;
+  outline:6px solid rgb(0, 0, 0);
+  width:50%;
+  height: auto;
+
+}
+
+.navBarBox li:hover {
+
+ background: rgb(59, 135, 173);
+
+
+}
+
+.navBarBox a {
+ position: relative;
+ top:-3pt;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  
+
+}
+
+
+
+/*Second Section*/
+
+.ParentSecondSection {
+
+  position: relative;
+  width:100%;
+  border: 3.5px solid rgb(0, 0, 0);
+  top:183pt;
+  height:100.5vh;
+}
+
+
+.SecondSection {
+ position: relative;
+ border:3px solid rgb(0, 0, 0);
+ width:100%;
+ height:100vh;
+ top:0pt; 
+ background: palegoldenrod;
+background: url(/Img/Gelato\ Wallpaper.jpg);
+ background-size:  cover;
+ display: flex;
+ justify-content: center;
+ 
+
+
+}
+
+.BttnContainer{
+
+ position:relative ;
+ top:300pt;
+ left:0pt;
+ display: flex;
+ justify-content: center;
+ border: none;
+ width:30%;
+ 
+ 
+ 
+}
+
+
+
+.BttnContainer button {
+ width:295%;
+ background: rgb(190, 249, 207);
+ border: 3px solid rgb(0, 0, 0);
+ border-radius: 1.5em;
+ font-size:19px;
+ font-weight: 700;
+ position: relative;
+ left:-38pt;
+ cursor: pointer;
+
+}
+
+
+
+
+
+/* Third Section */
+
+
+
+.product-section {
+
+ width:100%;
+ height:37vh;
+ top:184pt;
+ border:none;
+ position: relative;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+/* Text "Best Seller" */
+
+.product-section p{
+ text-align: center;
+ color: rgb(32, 91, 32);
+ padding:1em;
+ font-size: 40px;
+ font-family:Arial, Helvetica, sans-serif;
+ font-style: italic;
+ font-weight: 900;
+ width:70%;
+ position: absolute;
+ top:50pt;
+
+}
+
+/*Display Strip Horizontal */
+
+
+.ParentProductDisplayStrip {
+ background: rgb(234, 255, 234);
+ border: 2px solid rgb(255, 255, 255);
+ position: absolute;
+ top:930pt;
+ left:0pt;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ width:100%;
+ height: 120vh;
+ 
+ 
+}
+
+.ChildProductDisplayStrip h1 {
+  position: absolute;
+  top:7pt;
+  border:2px solid rgb(255, 255, 255);
+  display:none;
+
+}
+
+
+.ChildProductDisplayStrip {
+
+ border:2px solid rgb(233, 253, 233);
+ border-radius: 1em;
+ background: rgb(204, 249, 216);
+ width:90%;
+ height: 88vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ top:10pt;
+ 
+}
+
+/* Below is for product 1 on display strip */
+
+.Parent-Product1-Container {
+
+ 
+ width:95%;
+ height:53vh;
+ display:flex;
+ justify-content: center;
+ 
+
+}
+
+.Child-Product1-Container {
+
+ border:none;
+ width:100%;
+ height:66vh;
+ padding: 1em;
+ position:relative;
+ top:-45pt;
+
+
+}
+
+.Child-Product1-Container img {
+ width:100%;
+ height: 48vh;
+ border:6px solid rgb(0, 0, 0);
+}
+
+.Child-Product1-Container p {
+
+ text-align: center;
+ font-size: 22px;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(0, 0, 0);
+}
+ 
+
+ /* Below is for product 2 on display strip */
+
+ .Parent-Product2-Container {
+
+   border:5px solid purple;
+   width:95%;
+   height:53vh;
+   display:flex;
+   justify-content: center;
+   
+ 
+  }
+ 
+  .Child-Product2-Container {
+ 
+   border:none;
+   width:100%;
+   height:66vh;
+   padding: 1em;
+   position:relative;
+   top:-45pt;
+ 
+ 
+  }
+ 
+  .Child-Product2-Container img {
+   width:100%;
+   height: 48vh;
+   border:6px solid rgb(0, 0, 0);
+  }
+
+  .Child-Product2-Container p {
+
+   text-align: center;
+   font-size: 22px;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(0, 0, 0);
+  }
+
+
+    /* Below is for product 3 on display strip */
+
+
+    .Parent-Product3-Container {
+
+     border:5px solid purple;
+     width:95%;
+     height:53vh;
+     display:flex;
+     justify-content: center;
+     
+   
+    }
+   
+    .Child-Product3-Container {
+   
+     border:none;
+     width:100%;
+     height:66vh;
+     padding:1em;
+     position:relative;
+     top:-45pt;
+   
+   
+    }
+   
+    .Child-Product3-Container img {
+     width:100%;
+     height: 48vh;
+     border:6px solid rgb(0, 0, 0);
+    }
+
+    .Child-Product3-Container p {
+
+     text-align: center;
+     font-size: 22px;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(0, 0, 0);
+    }
+
+
+    /*Footer Section */
+
+    .footer {
+     border:none;
+     background: rgb(0, 0, 0);
+     background: url(/Img/ice-cream-black\ background.jpg);
+     position: absolute;
+     top:1580pt;
+     height:50vh;
+     width: 100%;
+     display:flex;
+     justify-content: center;
+
+     
+    }
+
+
+    /*.list-of-info {
+
+     position:relative;
+     top:23pt;
+     left:-250pt;
+     border:2px solid rgb(239, 153, 153);
+     width:40%;
+     height:39vh;
+     display: flex;
+     justify-content: center;
+    
+
+    }
+    */
+
+    .InfoListBox {
+     position:absolute;
+     left:60pt;
+     top:28pt;
+     background:  rgb(0, 0, 0);
+     border:1px solid rgb(255, 255, 255);
+     border-radius: 1em;
+     width:16%;
+     height:40vh;
+     display:block;
+     justify-content: left;
+
+     
+     
+
+    }
+
+
+    .InfoListBox p {
+
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     position:relative;
+     top:17pt;
+     padding-left:1.3em;
+     text-align: left;
+     color: white;
+     
+
+     
+    }
+
+    .Social-Media {
+
+     display:flex;
+     justify-content: left;
+     border: none;
+     width:100%;
+     position:relative;
+     top:-23.5pt;
+     
+
+    }
+
+    #Instagram-icon {
+
+      position:absolute;
+      left:3pt;
+      top:-5pt;
+      width:120%;
+      height:4.2vh;
+    }
+
+    #Facebook-icon {
+
+      position:relative;
+      left:-5pt;
+      top:-10pt;
+
+    }
+
+
+
+
+    /* This is for dekstop during 1st minimization */
+
+    @media only screen and (max-width: 1000px) {
+
+      .dropbtn {
+        background-color: #ffffff;
+        color: rgb(255, 255, 255);
+        padding: 0px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        
+        
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #8fa1ad;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        position:absolute;
+        left:30pt;
+        top:8pt;
+        
+        
+      
+      }
+      
+      .dropdown img {
+        border: none;
+        width:50%;
+        
+      }
+      
+      
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        left:-21pt;
+        height:26vh;
+        background-color: #f1f1f1;
+        min-width: 300px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        position: relative;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+      
+
+      .logo {
+ 
+        width:100%;
+        position:absolute;
+        background:rgb(190, 249, 207);
+        height: 40vh;
+        padding:3em;
+        display: flex;
+        justify-content: center;
+
+       } 
+
+    
+
+
+       .SideBar {
+        position: absolute;
+        left:3pt;
+        top:13pt;
+        
+      
+      }
+
+
+
+      .SideBar button {
+        width:50%;
+        padding-left:3.5em;
+        padding-top: 2em;
+        
+      }
+
+      
+      
+      
+      #burgermenu {
+        width:50%;
+        border: none;
+        display:flex;
+        position:relative;
+        right:45pt;
+        top:2pt;
+      
+      }
+
+      
+
+      /* .SecondSectionBtnMaking ul {
+    
+    float: left;
+    background: greenyellow;
+    width: 100%;
+
+}
+
+.SecondSectionBtnMaking ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.SecondSectionBtnMaking ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+.SecondSectionBtnMaking ul li ul {
+    width: 155px;
+    position: absolute;
+    display: none;
+    background: silver;
+    padding: 12px;
+
+}
+
+
+.SecondSectionBtnMaking ul li :hover {
+    color: rgb(255, 79, 79);
+
+}
+
+.SecondSectionBtnMaking ul li:hover ul {
+    display: block;
+}
+
+.SecondSectionBtnMaking ul li ul li {
+    width:155px;
+}
+
+.SecondSectionBtnMaking ul li ul li a{
+    text-align: left;
+    padding: 8px 14px;
+    
+
+}
+
+.SecondSectionBtnMaking ul li ul li a:hover {
+    background: greenyellow;
+}
+
+----*/
+
+      
+    
+      /* Navigation bar section */
+
+      .navBarBox ul {
+        position: absolute;
+        top:0pt;
+         display:flex;
+         list-style: none;
+         width:100%;
+         text-align: center;
+         background: rgb(36, 36, 35);
+         display: none;
+       }
+
+
+       .ParentSecondSection {
+
+        position: relative;
+        width:100%;
+        border: 3.5px solid rgb(0, 0, 0);
+        top:183pt;
+        height:80vh;
+      }
+
+
+       .SecondSection {
+        position: absolute;
+        border:none;
+        width:100%;
+        height:80vh;
+        top:0pt; 
+        background: palegoldenrod;
+        background: url(/Img/Gelato\ Wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+      
+       
+       }
+
+
+       .BttnContainer{
+
+        position:relative ;
+        top:250pt;
+        left:0pt;
+        display: flex;
+        justify-content: center;
+        border: none;
+        width:30%;
+        
+        
+        
+       }
+
+
+       .product-section {
+
+        width:100%;
+        height:37vh;
+        top:184pt;
+        border:3px solid rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        justify-content: center;
+       
+       
+       }
+
+
+       .ParentProductDisplayStrip {
+        background:  rgb(204, 249, 216);
+        border: 2px solid rgb(255, 255, 255);
+        position: absolute;
+        top:820pt;
+        left:0pt;
+        width:100%;
+        height: 170vh;
+        
+        
+       }
+       
+       
+       .ChildProductDisplayStrip {
+       
+        border:2px solid rgb(233, 253, 233);
+        border-radius: 1em;
+        background:  rgb(204, 249, 216);
+        width:90%;
+        height: 150vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:50pt;
+        
+       }
+       
+       /* Below is for product 1 on display strip */
+       
+       .Parent-Product1-Container {
+       
+        position:absolute;
+        top:5pt;
+        width:90%;
+        height:53vh;
+        border:none;
+        display:flex;
+        justify-content: center;
+        
+       
+       }
+       
+       .Child-Product1-Container {
+       
+        border:none;
+        width:50%;
+        height:66vh;
+        padding: 1em;
+        position:absolute;
+        top:25pt;
+       
+       
+       }
+       
+       .Child-Product1-Container img {
+        
+        width:100%;
+        height: 48vh;
+        border:6px solid rgb(0, 0, 0);
+       }
+       
+       .Child-Product1-Container p {
+       
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(14, 86, 14);
+       }
+
+
+       /* Below is for product 2 on display strip */
+
+    
+
+ .Parent-Product2-Container {
+
+  position: absolute;
+  top:30pt;
+  border:5px solid rgb(1, 4, 62);
+  width:90%;
+  height:53vh;
+  display:flex;
+  justify-content: center;
+
+ }
+
+ .Child-Product2-Container {
+
+  border:none;
+  width:90%;
+  height:66vh;
+  padding: 1em;
+  position: relative;
+  top:400pt;
+
+  /*
+  position:absolute;
+  top:440pt;
+  left:29pt
+
+  */
+
+
+ }
+
+ .Child-Product2-Container img {
+  width:100%;
+  height: 48vh;
+  border:6px solid rgb(0, 0, 0);
+ }
+
+ .Child-Product2-Container p {
+
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 86, 14);
+ }
+      
+
+ 
+  /* Below is for product 3 on display strip */
+
+
+
+  
+  .Parent-Product3-Container {
+    position: absolute;
+    top:30pt;
+    border:5px solid purple;
+    width:95%;
+    height:53vh;
+    display:flex;
+    justify-content: center;
+    
+  
+   }
+  
+   .Child-Product3-Container {
+  
+    border:none;
+    width:90%;
+    height:66vh;
+    padding:1em;
+    position:relative;
+    top:400pt;
+  
+  
+   }
+  
+   .Child-Product3-Container img {
+    width:100%;
+    height: 48vh;
+    border:6px solid rgb(0, 0, 0);
+   }
+
+   .Child-Product3-Container p {
+
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 86, 14);
+   }
+
+   
+
+
+   /*Footer Section */
+
+   .footer {
+    border:none;
+    background: rgb(0, 0, 0);
+    background: url(/Img/ice-cream-black\ background.jpg);
+    position: absolute;
+    top:1800pt;
+    height:50vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+    
+   }
+
+
+   /*.list-of-info {
+
+    position:relative;
+    top:23pt;
+    left:-250pt;
+    border:2px solid rgb(239, 153, 153);
+    width:40%;
+    height:39vh;
+    display: flex;
+    justify-content: center;
+   
+
+   }
+   */
+
+   .InfoListBox {
+    position:absolute;
+    left:60pt;
+    top:28pt;
+    background: rgb(0, 0, 0);
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    width:23%;
+    height:40vh;
+    display:block;
+    justify-content: left;
+
+     
+
+   }
+
+
+   .InfoListBox p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position:relative;
+    top:17pt;
+    padding-left:1.3em;
+    text-align: left;
+    
+    
+   }
+
+   .Social-Media {
+
+    display:flex;
+    justify-content: left;
+    border: none;
+    width:100%;
+    position:relative;
+    top:-23.5pt;
+    
+
+   }
+
+
+   #Instagram-icon {
+
+     position:absolute;
+     left:0pt;
+     top:-6pt;
+   }
+
+   #Facebook-icon {
+
+     position:relative;
+     left:-5pt;
+     top:-10pt;
+
+   }
+       
+      
+  }
+
+
+  /* This is for dekstop during 2nd minimization */
+
+  @media only screen and (max-width: 700px) {
+
+    .dropbtn {
+      background-color: #ffffff;
+      color: rgb(255, 255, 255);
+      padding: 0px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      
+      
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #8fa1ad;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      position:absolute;
+      left:25pt;
+      top:7pt;
+      
+      
+    
+    }
+    
+    .dropdown img {
+      border: none;
+      width:50%;
+      
+    }
+    
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left:-17pt;
+      height:26vh;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown-content a {
+      position: relative;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+
+
+    .logo {
+ 
+      width:100%;
+      position:absolute;
+      background: rgb(190, 249, 207);
+      height: 30vh;
+      padding:3em;
+      border-bottom:3px solid rgb(0, 0, 0);
+     } 
+
+     #logopicture {
+
+      position:relative;
+      
+     }
+
+
+     .SideBar {
+      position: absolute;
+      left:-10pt;
+      top:13pt;
+    
+    }
+    
+    
+    #burgermenu {
+      width:43%;
+      border: none;
+      display:flex;
+    
+    }
+
+    /*Second section */
+
+
+    .ParentSecondSection {
+
+      position: relative;
+      width:100%;
+      border:none;
+      top:148pt;
+      height:55vh;
+    }
+
+    .SecondSection {
+      position: absolute;
+      border:none;
+      width:100%;
+      height:55vh;
+      top:0pt; 
+      background: palegoldenrod;
+      background: url(/Img/Gelato\ Wallpaper.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+    
+     
+     }
+
+
+     .BttnContainer{
+
+      position:relative ;
+      top:170pt;
+      left:0pt;
+      display: flex;
+      justify-content: center;
+      border: none;
+      width:30%;
+      
+      
+      
+     }
+
+
+
+    .ParentProductDisplayStrip {
+      background: rgb(204, 249, 216);
+      border: none;
+      position: absolute;
+      top:685pt;
+      left:0pt;
+      width:100%;
+      height: 240vh;
+      
+      
+     }
+     
+     
+     .ChildProductDisplayStrip {
+     
+      border:none;
+      border-radius: 1em;
+      background: rgb(204, 249, 216);
+      width:100%;
+      height: 220vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:50pt;
+      
+     }
+     
+     /* Below is for product 1 on display strip */
+     
+     .Parent-Product1-Container {
+     
+      position:absolute;
+      top:5pt;
+      width:90%;
+      height:53vh;
+      border:none;
+      display:flex;
+      justify-content: center;
+      
+     
+     }
+     
+     .Child-Product1-Container {
+     
+      border:none;
+      width:90%;
+      height:66vh;
+      padding: 1em;
+      position:absolute;
+      top:25pt;
+     
+     
+     }
+     
+     .Child-Product1-Container img {
+      
+      width:100%;
+      height: 48vh;
+      border:6px solid rgb(0, 0, 0);
+     }
+     
+     .Child-Product1-Container p {
+     
+      text-align: center;
+      font-size: 22px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(14, 86, 14);
+     }
+
+
+     /* Below is for product 2 on display strip */
+
+  
+
+.Parent-Product2-Container {
+
+position: absolute;
+top:30pt;
+border:5px solid rgb(1, 4, 62);
+width:90%;
+height:53vh;
+display:flex;
+justify-content: center;
+
+}
+
+.Child-Product2-Container {
+
+border:none;
+width:90%;
+height:66vh;
+padding: 1em;
+position: absolute;
+top:400pt;
+
+/*
+position:absolute;
+top:440pt;
+left:29pt
+
+*/
+
+
+}
+
+.Child-Product2-Container img {
+width:100%;
+height: 48vh;
+border:6px solid rgb(0, 0, 0);
+}
+
+.Child-Product2-Container p {
+
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(14, 86, 14);
+}
+    
+
+
+/* Below is for product 3 on display strip */
+
+
+
+
+.Parent-Product3-Container {
+  position: absolute;
+  top:30pt;
+  border:5px solid purple;
+  width:95%;
+  height:53vh;
+  display:flex;
+  justify-content: center;
+  
+
+ }
+
+ .Child-Product3-Container {
+
+  border:none;
+  width:90%;
+  height:66vh;
+  padding:1em;
+  position:relative;
+  top:780pt;
+
+
+ }
+
+ .Child-Product3-Container img {
+  width:100%;
+  height: 48vh;
+  border:6px solid rgb(0, 0, 0);
+ }
+
+ .Child-Product3-Container p {
+
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 86, 14);
+ }
+
+
+ /*Footer Section */
+
+ .footer {
+  border:none;
+  background: rgb(0, 0, 0);
+  background: url(/Img/ice-cream-black\ background.jpg);
+  position: absolute;
+  top:2050pt;
+  height:50vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+
+  
+ }
+
+
+ /*.list-of-info {
+
+  position:relative;
+  top:23pt;
+  left:-250pt;
+  border:2px solid rgb(239, 153, 153);
+  width:40%;
+  height:39vh;
+  display: flex;
+  justify-content: center;
+ 
+
+ }
+ */
+
+ .InfoListBox {
+  position:absolute;
+  left:30pt;
+  top:28pt;
+  background: rgb(0, 0, 0);
+  border:1px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  width:38%;
+  height:40vh;
+  display:block;
+  justify-content: left;
+
+   
+
+ }
+
+
+ .InfoListBox p {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  position:relative;
+  top:17pt;
+  padding-left:1.3em;
+  text-align: left;
+  
+  
+ }
+
+ .Social-Media {
+
+  display:flex;
+  justify-content: left;
+  border: none;
+  width:100%;
+  position:relative;
+  top:-23.5pt;
+  
+
+ }
+
+ #Instagram-icon {
+
+   position:absolute;
+   left:0pt;
+   top:-5pt;
+ }
+
+ #Facebook-icon {
+
+   position:relative;
+   left:-5pt;
+   top:-10pt;
+
+ }
+     
+
+
+
+
+  }
+    
+
+/*------------------------------------------------*/
+
+  /* This is for mobile phone iphone 12 pro with 390px*/
+
+ 
+  @media screen and (max-width:390px){
+
+    .body {
+      display: flex;
+      justify-content: center;
+    }
+
+    .dropbtn {
+      background-color: #ffffff;
+      color: rgb(255, 255, 255);
+      padding: 0px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      
+      
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #ffffff;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      position:absolute;
+      left:21pt;
+      top:5pt;
+      
+      
+    
+    }
+    
+    .dropdown img {
+      border: none;
+      width:50%;
+      
+    }
+    
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left:-17pt;
+      height:26vh;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown-content a {
+      position: relative;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-weight: 600;
+      
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+
+
+
+    .logo {
+ 
+      width:100%;
+      position:relative;
+      top:0pt;
+      background: rgb(164, 246, 186);
+      height: 17vh;
+      border-bottom:4px solid rgb(255, 255, 255);
+      border-top: 4px solid rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      padding-right:10em;
+      
+     } 
+
+     #logopicture {
+      height:10.5vh;
+      position: relative;
+      top:-20pt;
+      left:40pt;
+      border: 3px solid rgb(82, 118, 91);
+     }
+
+
+     .SideBar {
+      position: absolute;
+      left:50pt;
+      top:15pt;
+      border:none;
+      width:21%;
+      height:10vh ;
+     
+      
+      
+    
+    }
+    
+    
+    #burgermenu {
+      width:35%;
+      border: none;
+      display:flex;
+      
+    
+    }
+
+    /*Second section */
+
+    
+
+
+    .ParentSecondSection {
+
+      position: absolute;
+      width:100%;
+      border: none;
+      background:none;
+      top:90pt;
+      height:50vh;
+      display: flex;
+      justify-content: center;
+    }
+
+  
+
+    .SecondSection {
+      position: absolute;
+      border:none;
+      width:100%;
+      height:43vh;
+      top:10pt; 
+      background: rgb(0, 0, 0);
+      background: url(/Img/Gelato\ Wallpaper.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+    
+     
+     }
+  
+
+
+     .BttnContainer{
+
+      position:relative;
+      top:115pt;
+      left:0pt;
+      display: flex;
+      justify-content: center;
+      border: none;
+      width:30%;
+      display:flex;
+      justify-content: center;
+      background:none;
+      
+      
+     }
+
+     .BttnContainer button {
+      position: absolute;
+      width:100%;
+      height: 4.5vh;
+      left:0pt;
+      border:2px solid rgb(170, 255, 220);
+      color: rgb(255, 255, 255);
+      background: none;
+      
+      
+     }
+
+     /*Third Section*/
+
+     .product-section {
+
+      width:100%;
+      height:45vh;
+      top:185pt;
+      border:5px solid rgb(245, 172, 172);
+      background:rgb(232, 255, 190) ;
+      position: relative;
+      display: none;
+      justify-content: center;
+
+      
+     
+     
+     }
+
+     .product-section p {
+
+      position:absolute;
+      top:55pt;
+      font-size: 35px;
+      width:100%;
+    
+
+      
+      
+     }
+
+
+     
+
+    .ParentProductDisplayStrip {
+      background: rgb(230, 255, 235);
+      border: 2px solid rgb(255, 255, 255);
+      position: absolute;
+      top:380pt;
+      left:0pt;
+      width:100%;
+      height: 199vh;
+        
+      
+     }
+
+     .ChildProductDisplayStrip h1 {
+      position: absolute;
+      top:7pt;
+      border:none;
+      display:flex;
+      color:rgb(37, 113, 37);
+    
+    }
+     
+     
+     .ChildProductDisplayStrip {
+     
+      border:none;
+      border-radius: 0em;
+      background: rgb(230, 255, 235);
+      width:95%;
+      height: 170vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:30pt;
+      
+      
+     }
+     
+     /* Below is for product 1 on display strip */
+     
+     .Parent-Product1-Container {
+     
+      position:absolute;
+      top:5pt;
+      width:90%;
+      height:53vh;
+      border:none;
+      display:flex;
+      justify-content: center;
+      
+     
+     }
+     
+     .Child-Product1-Container {
+     
+      border:none;
+      background: none;
+      width:99%;
+      height:45vh;
+      padding-bottom: 1em;
+      position:absolute;
+      top:65pt;
+     
+     
+     }
+     
+     .Child-Product1-Container img {
+      
+      width:100%;
+      height: 33vh;
+      border:5px solid rgb(255, 255, 255);
+      border-radius: 0.5em;
+     }
+     
+     .Child-Product1-Container p {
+    
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      border:1px solid rgb(255, 255, 255);
+      width:100%;
+      padding-left: 1em;
+      padding-right: 1em;
+      position:absolute;
+      bottom:5pt;
+      left:0
+      
+     }
+
+
+     /* Below is for product 2 on display strip */
+
+  
+
+.Parent-Product2-Container {
+
+position: absolute;
+top:30pt;
+border:5px solid rgb(1, 4, 62);
+width:90%;
+height:53vh;
+display:flex;
+justify-content: center;
+
+}
+
+.Child-Product2-Container {
+
+border:none;
+background:none;
+width:99%;
+height:45vh;
+position: absolute;
+top:385pt;
+
+
+/*
+position:absolute;
+top:440pt;
+left:29pt
+
+*/
+
+
+}
+
+.Child-Product2-Container img {
+width:100%;
+height: 33vh;
+border:5px solid rgb(255, 255, 255);
+border-radius: 0.5em;
+}
+
+.Child-Product2-Container p {
+
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 1em;
+padding-right: 1em;
+color: rgb(0, 0, 0);
+position: absolute;
+bottom:5pt;
+left:0;
+}
+    
+
+
+/* Below is for product 3 on display strip */
+
+
+
+
+.Parent-Product3-Container {
+  position: absolute;
+  top:30pt;
+  border:5px solid purple;
+  width:90%;
+  height:53vh;
+  display:flex;
+  justify-content: center;
+  
+
+ }
+
+ .Child-Product3-Container {
+
+  border:none;
+  background:none;
+  width:99%;
+  height:45vh;
+  padding:1em;
+  position:absolute;
+  top:708pt;
+ 
+
+
+ }
+
+ .Child-Product3-Container img {
+  width:100%;
+  height: 33vh;
+  border:5px solid rgb(255, 255, 255);
+  border-radius: 0.5em;
+ }
+
+ .Child-Product3-Container p {
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom:5pt;
+  left:1;
+ }
+
+
+ /*Footer Section */
+
+ .footer {
+  border:none;
+  background: rgb(0, 0, 0);
+  background: url(/Img/ice-cream-black\ background.jpg);
+  position: absolute;
+  top:1510pt;
+  height:58vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+
+  
+ }
+
+
+ /*.list-of-info {
+
+  position:relative;
+  top:23pt;
+  left:-250pt;
+  border:2px solid rgb(239, 153, 153);
+  width:40%;
+  height:39vh;
+  display: flex;
+  justify-content: center;
+ 
+
+ }
+ */
+
+ .InfoListBox {
+  position:absolute;
+  left:28pt;
+  top:58pt;
+  background:  rgb(0, 0, 0);
+  border:3px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  width:80%;
+  height:40vh;
+  display:block;
+  justify-content: left;
+
+
+ }
+
+
+ .InfoListBox p {
+  color:  rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  position:relative;
+  top:17pt;
+  left:0pt;
+  padding-left:1.3em;
+  text-align: left;
+  
+  
+ }
+
+ .Social-Media {
+
+  display:flex;
+  justify-content: left;
+  border: none;
+  width:100%;
+  position:relative;
+  top:-23.5pt;
+  
+
+ }
+
+ #Instagram-icon {
+
+   position:absolute;
+   left:0pt;
+   top:-6pt;
+   
+ }
+
+ #Facebook-icon {
+
+   position:relative;
+   left:-5pt;
+   top:-10pt;
+
+ }
+
+  }
+
+    
+
+
+
+  /* This is for mobile phone iphone 14 pro */
+
+  
+
+  @media screen and (max-width: 430px) {
+ 
+
+    .body {
+      display: flex;
+      justify-content: center;
+    }
+
+    .dropbtn {
+      background-color: #ffffff;
+      color: rgb(255, 255, 255);
+      padding: 0px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      
+      
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #ffffff;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      position:absolute;
+      left:21pt;
+      top:5pt;
+      
+      
+    
+    }
+    
+    .dropdown img {
+      border: none;
+      width:50%;
+      
+    }
+    
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      left:-13pt;
+      height:23vh;
+      background-color: #f1f1f1;
+      min-width: 180px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown-content a {
+      position: relative;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+
+
+    .logo {
+ 
+      width:100%;
+      position:relative;
+      top:0pt;
+      background: rgb(164, 246, 186);
+      height: 23vh;
+      border-bottom:4px solid rgb(255, 255, 255);
+      border-top: 4px solid rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      padding-right:10em;
+      
+     } 
+
+     #logopicture {
+      height:10.5vh;
+      position: relative;
+      top:-20pt;
+      left:40pt;
+      border: 3px solid rgb(82, 118, 91);
+     }
+
+
+     .SideBar {
+      position: absolute;
+      left:50pt;
+      top:15pt;
+      border:none;
+      width:21%;
+      height:10vh ;
+     
+      
+      
+    
+    }
+    
+    
+    #burgermenu {
+      width:35%;
+      border: none;
+      display:flex;
+      
+    
+    }
+
+
+    
+    
+    .ParentSecondSection {
+
+      position: absolute;
+      width:100%;
+      border: none;
+      background: none;
+      top:110pt;
+      height:50vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .SecondSection {
+      position: absolute;
+      border:none;
+      width:100%;
+      height:43vh;
+      top:0pt; 
+      background: rgb(0, 0, 0);
+      background: url(/Img/Gelato\ Wallpaper.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+    
+     
+     }
+
+    
+
+
+     .BttnContainer{
+
+      position:relative;
+      top:115pt;
+      left:0pt;
+      display: flex;
+      justify-content: center;
+      border: none;
+      width:30%;
+      display:flex;
+      justify-content: center;
+      background:none;
+      
+      
+     }
+
+     .BttnContainer button {
+      position: absolute;
+      width:100%;
+      height: 4.5vh;
+      left:0pt;
+      border:2px solid rgb(170, 255, 220);
+      color: rgb(255, 255, 255);
+      background: none;
+      
+      
+     }
+
+     /*Third Section*/
+
+     .product-section {
+
+      width:100%;
+      height:45vh;
+      top:185pt;
+      border:5px solid rgb(245, 172, 172);
+      background:rgb(232, 255, 190) ;
+      position: relative;
+      display: none;
+      justify-content: center;
+
+      
+     
+     
+     }
+
+     .product-section p {
+
+      position:absolute;
+      top:55pt;
+      font-size: 35px;
+      width:100%;
+
+      
+      
+     }
+
+
+     
+
+    .ParentProductDisplayStrip {
+      background: rgb(230, 255, 235);
+      border: 2px solid rgb(255, 255, 255);
+      position: absolute;
+      top:380pt;
+      left:0pt;
+      width:100%;
+      height: 199vh;
+      
+      
+     }
+
+     .ChildProductDisplayStrip h1 {
+      position: absolute;
+      top:7pt;
+      border:2px solid rgb(255, 255, 255);
+      display:flex;
+      color:rgb(37, 113, 37);
+    
+    }
+     
+     
+     .ChildProductDisplayStrip {
+     
+      border:none;
+      border-radius: 0em;
+      background: rgb(230, 255, 235);
+      width:95%;
+      height: 170vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:30pt;
+      
+      
+     }
+     
+     /* Below is for product 1 on display strip */
+     
+     .Parent-Product1-Container {
+     
+      position:absolute;
+      top:5pt;
+      width:90%;
+      height:53vh;
+      border:none;
+      display:flex;
+      justify-content: center;
+      
+     
+     }
+     
+     .Child-Product1-Container {
+     
+      border:none;
+      background: none;
+      width:99%;
+      height:45vh;
+      padding-bottom: 1em;
+      position:absolute;
+      top:65pt;
+     
+     
+     }
+     
+     .Child-Product1-Container img {
+      
+      width:100%;
+      height: 33vh;
+      border:5px solid rgb(255, 255, 255);
+      border-radius: 0.5em;
+     }
+     
+     .Child-Product1-Container p {
+    
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      border:1px solid rgb(255, 255, 255);
+      width:100%;
+      padding-left: 1em;
+      padding-right: 1em;
+      position:absolute;
+      bottom:5pt;
+      left:0
+      
+     }
+
+
+     /* Below is for product 2 on display strip */
+
+  
+
+.Parent-Product2-Container {
+
+position: absolute;
+top:30pt;
+border:5px solid rgb(1, 4, 62);
+width:90%;
+height:53vh;
+display:flex;
+justify-content: center;
+
+}
+
+.Child-Product2-Container {
+
+border:none;
+background:none;
+width:99%;
+height:45vh;
+position: absolute;
+top:385pt;
+
+
+/*
+position:absolute;
+top:440pt;
+left:29pt
+
+*/
+
+
+}
+
+.Child-Product2-Container img {
+width:100%;
+height: 33vh;
+border:5px solid rgb(255, 255, 255);
+border-radius: 0.5em;
+}
+
+.Child-Product2-Container p {
+
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 1em;
+padding-right: 1em;
+color: rgb(0, 0, 0);
+position: absolute;
+bottom:5pt;
+left:0;
+}
+    
+
+
+/* Below is for product 3 on display strip */
+
+
+
+
+.Parent-Product3-Container {
+  position: absolute;
+  top:30pt;
+  border:5px solid purple;
+  width:90%;
+  height:53vh;
+  display:flex;
+  justify-content: center;
+  
+
+ }
+
+ .Child-Product3-Container {
+
+  border:none;
+  background:none;
+  width:99%;
+  height:45vh;
+  padding:1em;
+  position:absolute;
+  top:708pt;
+ 
+
+
+ }
+
+ .Child-Product3-Container img {
+  width:100%;
+  height: 33vh;
+  border:5px solid rgb(255, 255, 255);
+  border-radius: 0.5em;
+ }
+
+ .Child-Product3-Container p {
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom:5pt;
+  left:1;
+ }
+
+
+ /*Footer Section */
+
+ .footer {
+  border:none;
+  background: rgb(0, 0, 0);
+  background: url(/Img/ice-cream-black\ background.jpg);
+  position: absolute;
+  top:1510pt;
+  height:58vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+
+  
+ }
+
+
+ /*.list-of-info {
+
+  position:relative;
+  top:23pt;
+  left:-250pt;
+  border:2px solid rgb(239, 153, 153);
+  width:40%;
+  height:39vh;
+  display: flex;
+  justify-content: center;
+ 
+
+ }
+ */
+
+ .InfoListBox {
+  position:absolute;
+  left:28pt;
+  top:58pt;
+  background:  rgb(0, 0, 0);
+  border:3px solid rgb(255, 255, 255);
+  border-radius: 1em;
+  width:80%;
+  height:40vh;
+  display:block;
+  justify-content: left;
+
+
+ }
+
+
+ .InfoListBox p {
+  color:  rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  position:relative;
+  top:17pt;
+  left:0pt;
+  padding-left:1.3em;
+  text-align: left;
+  
+  
+ }
+
+ .Social-Media {
+
+  display:flex;
+  justify-content: left;
+  border: none;
+  width:100%;
+  position:relative;
+  top:-23.5pt;
+  
+
+ }
+
+ #Instagram-icon {
+
+   position:absolute;
+   left:0pt;
+   top:-4.1pt;
+   width:150%;
+   
+ }
+
+ #Facebook-icon {
+
+   position:relative;
+   left:-5pt;
+   top:-10pt;
+
+ }
+}
+
+
+
+
+  
+    
+
+
+
+
+      
+    
+
+
+ 
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,228 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   background:none;
+   height: 6vh;}
+   
+   
+.logo {
+ 
+ width:100%;
+ position:absolute;
+ background: rgb(190, 249, 207);
+ height: auto;
+ padding:3em;
+} 
+
+.logo img{
+  
+  display: block;
+  margin:auto;
+  border:4px solid black;
+  max-width:130px;
+  height: auto;
+  
+}
+
+.navBarBox {
+ position: absolute;
+  display:flex;
+  flex-wrap: nowrap;
+  outline:2px solid rgb(255, 255, 255);
+  width:100%;
+  height: auto;
+  top:150pt;
+  
+
+
+}
+
+.navBarBox ul {
+ position: absolute;
+ top:0pt;
+  display:flex;
+  list-style: none;
+  width:100%;
+  text-align: center;
+  background: rgb(36, 36, 35);
+}
+
+
+
+.navBarBox li {
+
+  padding:1em;
+  outline:6px solid rgb(0, 0, 0);
+  width:50%;
+  height: auto;
+
+}
+
+.navBarBox li:hover {
+
+ background: rgb(59, 135, 173);
+
+
+}
+
+.navBarBox a {
+ position: relative;
+ top:-4pt;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  
+  
+}
+
+/* Second Section */
+
+.Main-Container {
+ background: rgb(242, 235, 235);
+ position: absolute;
+ width:100%;
+ height:92vh;
+ border:2px solid black;
+ top:185pt;
+ 
+
+}
+
+.Parent-Product-pic-box {
+
+ position: relative;
+ width:40%;
+ height:65vh;
+ border:none;
+ top:50pt;
+ left:82pt;
+
+}
+
+.Parent-Product-pic-box img {
+
+ width:100%;
+ height:64vh;
+
+}
+
+.Description-box {
+
+ position: absolute;
+ width:90%;
+ height:70vh;
+ border:none;
+ top:75pt;
+ left:0pt;
+ display:flex;
+ justify-content: right;
+
+
+}
+
+.Description-box h1 {
+ 
+ border:none;
+ width:30%;
+ min-height:10vh;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 26px;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.Description-box p {
+
+ position: absolute;
+ top:155pt; 
+ font-weight:100;
+ font-size: 16px;
+ width: 35%;
+
+ 
+}
+
+
+
+.Description-box button {
+
+ position: absolute;
+ top:230pt; 
+ width:20%;
+ background: red;
+ color:white;
+ border:none;
+ border-radius: 1em;
+ font-size: 15px;
+
+
+}
+
+/*Footer Section */
+
+.footer {
+ border:3px solid rgb(13, 173, 50);
+ background: rgb(0, 0, 0);
+ background: url(/Img/ice-cream-black\ background.jpg);
+ position: absolute;
+ top:680pt;
+ height:48vh;
+ width: 100%;
+ display:flex;
+ justify-content: center;
+
+ 
+}
+
+
+.list-of-info {
+
+ position:absolute;
+ top:23pt;
+ left:45pt;
+ border:2px solid rgb(0, 0, 0);
+ width:40%;
+ height:39vh;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+.InfoListBox {
+ position:absolute;
+ left:0pt;
+ background: white;
+ border:1px solid green;
+ border-radius: 1em;
+ width:40%;
+ height:38.5vh;
+
+ 
+ 
+
+}
+
+
+.InfoListBox p {
+
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ position:relative;
+ top:10pt;
+ padding:0.4em;
+
+ 
+}
+
+.Social-Media {
+
+ display:flex;
+ position:absolute;
+ top:155pt;
+}
